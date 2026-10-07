@@ -231,11 +231,16 @@ footer .fc.gm .i{color:#ea4335!important}
 .car-ins .sl{align-items:center}
 .car-ins .sl img{height:auto;aspect-ratio:5/4;min-height:0}
 @media(max-width:760px){.ins-h{margin-top:56px}.car-ins .sl img{height:auto;width:100%}}
+
+/* selo do topo: pino de localização que acende e escurece de leve */
+.tag.loc{display:inline-flex;align-items:center;gap:8px}
+.radar{display:grid;place-items:center;flex:none;font-size:1.15rem;color:var(--cyan);animation:acende 2.6s ease-in-out infinite}
+@keyframes acende{0%,100%{opacity:.5;filter:none}50%{opacity:1;filter:drop-shadow(0 0 6px rgba(51,201,245,.9))}}
 </style>
 </head><body><main>
 
 <!-- 1. AZUL: início -->
-<section class="az hero" id="inicio"><div class="wrap"><div class="main"><div><span class="tag">Empresa de climatização em Patos de Minas e região</span><h1>Instalação e manutenção de ar-condicionado em Patos de Minas</h1><p class="sub">Conforto, eficiência e qualidade para a sua casa ou empresa. Fale com a RaVic pelo WhatsApp e receba um orçamento sem compromisso.</p><div class="actions"><a class="btn btn-wa pulse" data-m="Olá, quero falar com um técnico agora." href="#"><i data-i="wa"></i>Falar com um técnico agora</a><a class="btn btn-line" href="#servicos">Ver serviços</a></div></div>
+<section class="az hero" id="inicio"><div class="wrap"><div class="main"><div><span class="tag loc"><span class="radar" aria-hidden="true"><i data-i="pin"></i></span>Empresa de climatização em Patos de Minas e região</span><h1>Instalação e manutenção de ar-condicionado em Patos de Minas</h1><p class="sub">Conforto, eficiência e qualidade para a sua casa ou empresa. Fale com a RaVic pelo WhatsApp e receba um orçamento sem compromisso.</p><div class="actions"><a class="btn btn-wa pulse" data-m="Olá, quero falar com um técnico agora." href="#"><i data-i="wa"></i>Falar com um técnico agora</a><a class="btn btn-line" href="#servicos">Ver serviços</a></div></div>
 </div>
 <div class="tr"><article><i data-i="wrench"></i><div><h3>Equipe especializada</h3><p>Instalação e manutenção com padrão profissional</p></div></article><article><i data-i="shield"></i><div><h3>Serviço com garantia</h3><p>Mais segurança e confiança para você contratar</p></div></article><article><i data-i="chat"></i><div><h3>Atendimento rápido</h3><p>Agilidade no retorno e no agendamento</p></div></article><article><i data-i="check"></i><div><h3>Orçamento sem compromisso</h3><p>Você decide com clareza</p></div></article></div></div></section>
 
