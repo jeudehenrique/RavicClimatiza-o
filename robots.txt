@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ravicclimatizacao.com.br/sitemap.xml
